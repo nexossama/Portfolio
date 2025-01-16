@@ -19,7 +19,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4  py-10",
+        "grid grid-cols-3 md:grid-cols-4  lg:grid-cols-5  py-10",
         className
       )}
     >
@@ -50,7 +50,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <div className="rounded-md w-full p-5 overflow-hidden bg-black-500 group-hover:ring-2 ring-green-500 relative z-20 transition-all duration-500 cursor-pointer">
             <div className="py-5 z-50 relative space-y-5">
-                <Icon className="w-10 h-10 mx-auto text-green-500" />
+                <Icon className="w-8 h-8 mx-auto text-green-500" />
                 <p className="text-2xl font-bold text-center text-gray-300">{item.text}</p>
             </div>
           </div>

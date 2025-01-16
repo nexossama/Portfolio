@@ -78,8 +78,8 @@
   .glow {
     width: 0px;
     height: 0px;
-    border-radius: 50%;
-    opacity: 60%;
+    border-radius: 100%;
+    opacity: 50%;
     box-shadow:
-      0 0 80px 100px #f0f; /* middle magenta */
+      0 0 100px 200px #f0f; /* middle magenta */
   }
