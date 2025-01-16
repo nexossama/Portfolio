@@ -50,8 +50,8 @@ export default function Education() {
             <div className="flex justify-center -rotate-6 relative mb-12">
                 <Title
                     className="flex justify-center"
-                    text="Educational Journey 🎓"
-                    width="w-72"
+                    text="Education 🎓"
+                    width="w-48"
                 />
             </div>
 

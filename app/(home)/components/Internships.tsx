@@ -53,8 +53,8 @@ export default function Internships() {
             <div className="flex justify-center -rotate-6 relative mb-12">
                 <Title
                     className="flex justify-center"
-                    text="Professional Experience 💼" 
-                    width="w-96"
+                    text="Experiences 💼" 
+                    width="w-48"
                 />
             </div>
 
