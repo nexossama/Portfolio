@@ -2,7 +2,7 @@
 import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "../../../components/ui/card-hover-effect";
-import { SiCss3, SiFastapi, SiHtml5, SiJavascript, SiKeras, SiMongodb, SiMysql, SiPython, SiPytorch, SiReact, SiScikitlearn, SiTailwindcss } from "react-icons/si";
+import { SiCss3, SiFastapi, SiHtml5, SiJavascript, SiKeras, SiMongodb, SiMysql, SiPowerbi, SiPython, SiPytorch, SiReact, SiScikitlearn, SiTailwindcss } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 // import SkillLine from "./SkillLine";
 
@@ -59,6 +59,10 @@ export default function Skills() {
 		{
 			text: "MySQL",
 			icon: SiMysql,
+		},
+		{
+			text: "PowerBI",
+			icon: SiPowerbi,
 		},
 	];
 	return (
